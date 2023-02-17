@@ -13,14 +13,14 @@ pipeline {
         stage('Test') {
             steps {
                 sh 'cat temp.cpp'
-                echo 'Test by PES1UG20CS516 successful'
+                echo 'Test by PES1UG21CS828 successful'
             }
         }
 
         stage('Deploy') {
             steps {
                
-                echo 'Deploy by PES1UG20CS516 successful'
+                echo 'Deploy by PES1UG21CS828 successful'
             }
         }
     }
